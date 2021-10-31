@@ -1,0 +1,59 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:#be7d00;
+    --border-color:#a8a9a9;
+    --bacground-color:#f5f5fa;
+    --header-color: #1a94ff;
+    --header-height: 148px;
+    --header-search-height: 103px;
+    --search-button-width:120px;
+}
+*{
+    box-sizing: inherit;        /*kế thừa box-sizing: boder-bõ*/
+}
+
+html{
+    /* 10px */
+    /* 1rem  = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;         /* = boder+padding */
+}
+body{
+    background-color: var(--bacground-color);
+}
+.grid {
+    width: 1240px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_full-width {
+    width: 100%;
+}
+.grid_row{          /*item trên 1 dòng*/
+    display: flex;          
+    flex-wrap: wrap;
+}
+
+/* animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeScale{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}

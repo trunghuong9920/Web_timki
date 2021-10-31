@@ -1,0 +1,149 @@
+/* header---- */
+.header{
+    height: var(--header-height);
+    background-color: var(--header-color);
+}
+.header_search{
+    height: var(--header-search-height);
+}
+.header_search-content{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.header_logo{
+    width: 116px;
+}
+.header_logo-img{
+    width: 60px;
+    height: 40px;
+}
+.header_category{
+    width: 132px;
+    display: flex;
+    position: relative;
+}
+.hamburger-menu{
+    margin-top: 5px;
+    width: 27px;
+    height: 27px;
+}
+.header_category-name{
+    margin-left: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.header_with_search{
+    flex: 1;
+    display: flex;
+    background-color: white;
+    height: 40px;
+    border-radius: 2px;
+}
+.header_search-input{
+    flex: 1;
+    outline: none;
+    border: none;
+    height: 100%;
+    font-size: 1.4rem;
+    padding: 0 10px 0 10px;
+    border-radius: 2px;
+    font-weight: 400;
+}
+.header_search-button{
+    width: var(--search-button-width);
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: #0d5cb6;
+    border-radius: 2px ;
+}
+.header_search-icon{
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.header_search-name{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.header_log{
+    display: flex;
+    width: 176px;
+    margin-left: 20px;
+    align-items: center;
+}
+.header_log-icon1{
+    color: white;
+    font-size: 30px;
+}
+.header_log-title{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+}
+
+.header_cart{
+    display: flex;
+    width: 105px;
+    align-items: center;
+}
+.header_cart-icon{
+    color: white;
+    font-size: 27px;
+}
+.header_cart-number{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 2px 7px 2px 7px;
+    background-color: #fdd835;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+
+}
+.header_cart-name{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.header_navbar{
+    height: calc(var(--header-height) - var(--header-search-height));
+    background-color: white;
+}
+
+/* modal category header  */
+.header_category-option{
+    position: absolute;
+    width: 190%;
+    background-color: white;
+    top: 50px;
+    right: 0;
+    box-shadow: 0px 0px 3px 3px #aea7a7;
+}
+.header_category-option-link{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    color: rgb(147, 141, 141);
+}
+
+.header_category-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.header_category-option-name{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.header_category-option-link:hover{
+    text-decoration: none;
+    background-color: #1a94ff;
+    color: white;
+}
